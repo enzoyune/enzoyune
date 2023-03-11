@@ -1,0 +1,1433 @@
+<html class="no-js" lang="en"><!--<![endif]--><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Enzo Yune</title>
+       <meta name="description" content="La Carrera de mi Vida por Enzo Yune">
+    <meta name="keywords" content="portfolio, personal, corporate, business, parallax, creative, agency">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="img/favicon.png" rel="icon" type="image/png">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,,800,900|Josefin+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- magnific-popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Font Icon Core CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/et-line.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="css/style.css?v=4">
+    
+    <!-- spinner - loader -->
+    <link rel="stylesheet" href="css/loader.css">
+
+    <!-- Embed Behance Styles -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/embed.behance.css?1"/>
+
+
+    <!-- spinner - loader -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+
+
+    <!--[if lt IE 9]-->
+    <script src="js/html5shiv.min.js"></script>
+    <!--[endif]-->
+
+
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+<style type="text/css">
+    /*cambia el color de la seleccion de texto*/
+    ::-moz-selection { color: #fff;  background: #FF305B; }
+    ::selection      { color: #fff;  background: #FF305B; }
+
+
+
+/* #Cursor
+================================================== */
+
+.cursor,
+.cursor2,
+.cursor3{
+position: fixed;
+border-radius: 50%;	
+transform: translateX(-50%) translateY(-50%);
+pointer-events: none;
+left: -100px;
+top: 50%;
+mix-blend-mode: difference;
+-webkit-transition: all 300ms linear;
+transition: all 300ms linear;
+}
+.cursor{
+background-color: rgb(0, 0, 0);
+height: 0;
+width: 0;
+z-index: 99999999;
+}
+.cursor2,.cursor3{
+height: 36px;
+width: 36px;
+z-index:99999998;
+-webkit-transition:all 0.3s ease-out;
+transition:all 0.3s ease-out
+}
+.cursor2.hover,
+.cursor3.hover{
+-webkit-transform:scale(3) translateX(-25%) translateY(-25%);
+transform:scale(3) translateX(-25%) translateY(-25%);
+border:none
+}
+.cursor2{
+border: 2px solid rgb(0, 0, 0);
+box-shadow: 0 0 22px rgba(255, 255, 255, 0.6);
+}
+.cursor2.hover{
+background: rgb(0, 0, 0);
+box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 1200px){
+.cursor,.cursor2,.cursor3{
+    display: none
+}
+}
+
+
+    .owl-item.active .owl-stage-outer
+    {
+        display: inline-block;
+    }
+
+    .nav-scroll .logo
+    {
+        display: block !important;
+    }
+
+    .toast-success,
+    .toast-error
+{
+    background-color: #FF305B!important;
+    opacity: 1 !important;
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+border: 1px solid rgba(250, 250, 250, 0.2);
+-webkit-text-fill-color: #eee;
+-webkit-box-shadow: 0 0 0px 1000px rgba(0, 0, 0, 0) inset;
+transition: background-color 5000s ease-in-out 0s;
+}
+
+#submit-loader{
+left: calc(50% - 25px);
+margin: -51px 15px auto auto;
+float: right;
+width: 30px;
+height: 30px;
+border: 4px solid #e8e8e8;
+border-top: 5px solid #11110f;
+display:none;
+}
+
+/* -webkit-text-fill-color: yellow !important; */
+/* width */
+body::-webkit-scrollbar {
+/*background: #5f5f5f;*/
+background: transparent;
+  width: 10px;
+}
+
+
+/* Track */
+body::-webkit-scrollbar-track {
+background: transparent;
+
+box-shadow: inset 0 0 5px grey;
+border-radius: 22px;
+display: none;
+
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+/*	background: #333;*/
+background: #ccc; 
+border-radius: 22px;
+}
+
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+background: #FF305B; 
+}
+
+
+
+        /* lo nuevo behance*/			
+        .eb-container.box-project
+        {
+            opacity: 1;
+        }
+
+        .spacer{
+            display: none;
+        }
+
+        .wrap-headings{
+            top: 0;
+        }
+
+        .box-inner-main {
+            padding-top: 45px;
+        }
+
+</style>
+</head>
+<body>
+
+    <!-- ====== Preloader ======  -->
+    <!-- <div class="loading">
+        <div class="load-circle">
+        </div>
+    </div> -->
+
+
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    <!-- ======End Preloader ======  -->
+
+    <!-- ====== button-top ======  -->
+    <div class="button-top" data-scroll-nav="0">
+        <span>
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </span>
+    </div>
+    <!-- ======End button-top ======  -->
+
+    <!-- ====== Navgition ======  -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-icon-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- logo -->
+          <a href="#">
+              <div class="logo" style="display: none">
+                  Enzo
+                  <!-- <img src="img/logo-dark.png" alt="logo"> -->
+              </div>
+          </a>
+
+        </div>
+
+        <!-- Collect the nav links, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="nav-icon-collapse">
+          
+          <!-- links -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" data-scroll-nav="0" class="">Home</a></li>
+            <li><a href="#" data-scroll-nav="1" class="active">Yo</a></li>
+            <li><a href="#" data-scroll-nav="2">Trayectoria</a></li>
+            <li><a href="#" data-scroll-nav="3">Servicios</a></li>
+            <li><a href="#" data-scroll-nav="4">Frases</a></li>
+            <li><a href="#" data-scroll-nav="5">Portfolio</a></li>
+            <li><a href="#" data-scroll-nav="6">Blog</a></li>
+            <li><a href="#" data-scroll-nav="7">ContactaMe</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+    <!-- ====== End Navgition ======  -->
+
+    <!-- ====== Header ======  -->
+    <section id="home" class="header" data-scroll-index="0" data-stellar-background-ratio="0.8" style="">
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="row">
+                <div class="v-middle">
+                    <div class="caption">
+                        <h4>Hola</h4>
+                        <h1>Soy Enzo Yune</h1>
+                        <div class="type">
+                            <h3></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== End Header ======  -->
+
+    <!-- ====== Hero ======  -->
+    <section id="about" class="hero section-padding" data-scroll-index="1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="hero-img">
+                        <img src="img/hero.png" alt="hero">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="hero-content">
+                        <h4 class="head-left">Yo y mi SuperYó</h4>
+                        <p>Soy un norteño con raíces turcas (una bomba de persona), un apasionado de la tecnología, un autodidacta exigente, con muchas aptitudes pero más actitudes, lo que me ha llevado a ser el profesional que hoy soy. Continúo en carrera, formándome para poder ser cada día mejor...</p>
+                        
+                        <div class="info">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6">
+                                    <h5><span><i class="icon ion-person"></i></span>Enzo Yune</h5>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <h5><span><i class="icon ion-calendar"></i></span>04 Junio 1984</h5>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <h5><a target="_blank" href="https://www.google.com.ar/maps/place/Silvio+L.+Ruggieri+2791,+C1425DLA+CABA/@-34.5818461,-58.4098618,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb57ce8b6ffab:0xbc380a1739e01f80!8m2!3d-34.5818505!4d-58.4076731"><span><i class="icon ion-location"></i></span>
+                                    Palermo, Argentina
+                                    </a>
+                                    </h5>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <h5>
+                                        <a href="mailto:enzo.yune@gmail.com?subject=Entrevista&body=Hola%20Enzo%20te%20contacto%20para%20coordinar%20una%20entrevista">
+                                        <span><i class="icon ion-email"></i></span>enzo.yune@gmail.com</h5>
+                                        </a>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <h5>
+                                        <a target="_blank" href="https://api.whatsapp.com/send?phone=+5491141904848&amp;text=Hola Enzo, te contacto para coordinar una entrevista">
+                                            <span>
+                                                <i class="icon ion-social-whatsapp-outline"></i>
+                                            </span>+54 ( 911 ) 4190 4848
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <h5><span><i class="icon ion-code-working"></i></span>CreActivo</h5>
+                                </div>
+                                <div class="clear-fix"></div>
+                                
+                                <a href="#0" data-scroll-nav="5">
+                                    <span class="butn butn-bord">Mis Trabajos</span>
+                                </a>
+                                <a href="#0" data-scroll-nav="7">
+                                    <span class="butn butn-bg">ContactaMe</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+
+                <div class="skills mt-100">
+                    <div class="col-md-6">
+                        <div class="item">
+                            <h6>Diseño UI</h6>
+                            
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="100%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding skills-separator">
+                                <div class="skills-progress"><span data-value="100%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="50%" data-type="Avanzado"></span></div>
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+                            <h6>Programación FrontEnd</h6>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="100%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding skills-separator">
+                                <div class="skills-progress"><span data-value="100%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="80%" data-type="Avanzado"></span></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h6>Base De Datos</h6>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="100%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding skills-separator">
+                                <div class="skills-progress"><span data-value="90%" data-type="Intermedio"></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="0%" data-type=""></span></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h6>Redes</h6>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="100%" data-type="Inicial"></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding skills-separator">
+                                <div class="skills-progress"><span data-value="0%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="0%" data-type=""></span></div>
+                            </div>
+                        </div>
+                    
+                        <div class="item">
+                            <h6>Inglés</h6>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="100%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding skills-separator">
+                                <div class="skills-progress"><span data-value="70%" data-type="Intermedio"></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="0%" data-type=""></span></div>
+                            </div>
+                        </div>							
+                    </div>
+                    <div class="col-md-6">
+                        <div class="item">
+                            <h6>Diseño UX</h6>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="100%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding skills-separator">
+                                <div class="skills-progress"><span data-value="100%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="80%" data-type="Avanzado"></span></div>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <h6>Programación BackEnd</h6>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="100%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding skills-separator">
+                                <div class="skills-progress"><span data-value="100%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="75%" data-type="Avanzado"></span></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h6>Servidores</h6>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="100%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding skills-separator">
+                                <div class="skills-progress"><span data-value="90%" data-type="Intermedio"></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="0%" data-type=""></span></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h6>Sistemas Operativos</h6>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="100%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding skills-separator">
+                                <div class="skills-progress"><span data-value="100%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="65%" data-type="Avanzado"></span></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h6>Portugués</h6>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="100%" data-type="Inicial"></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding skills-separator">
+                                <div class="skills-progress"><span data-value="0%" data-type=""></span></div>
+                            </div>
+                            <div class="col-md-4 col-xs-4 no-padding">
+                                <div class="skills-progress"><span data-value="0%" data-type=""></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear-fix"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ====== End Hero ======  -->
+
+    <!-- ====== Resume ======  -->
+    <section id="resume" class="resume section-padding" data-scroll-index="2">
+        <div class="container">
+
+            <div class="section-head">
+                <h3>Mi Trayectoria</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-md-offset-1 col-md-10">
+                    <div class="tabs">
+                        <!-- tabs-icon -->
+                        <div class="tabs-icon">
+                            <ul>
+                                <li id="tab-1" class="active">
+                                    <span class="ion-briefcase"></span>
+                                    <h6 class="sm-title">EXPERIENCIA</h6>
+                                </li>
+                                <li id="tab-2">
+                                    <span class="ion-university"></span>
+                                    <h6 class="sm-title">EDUCACIÓN</h6>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-content">
+
+                            <!-- tabs-content -->
+                            <div id="tab-1-content" class="item active">
+                                <div class="content">
+                                    <div class="main-icon">
+                                        <span>
+                                            <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="row">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- tabs-content -->
+                            <div id="tab-2-content" class="item">
+                                <div class="content">
+                                    <div class="main-icon">
+                                        <span>
+                                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="row">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="content text-center">
+
+                    <a class="view-certificate" href="certifications/">
+                        <span class="botn">Ver certificados</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== End Resume ======  -->
+
+    <!--====== Numbers ======-->
+    <div class="numbers section-padding text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="item">
+                        <span class="icon ion-ios-body"></span>
+                        <h5 class="counter">18</h5>
+                        <h6 class="sm-title">Capacitaciones</h6>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="item">
+                        <span class="icon ion-cube"></span>
+                        <h5 class="counter">76</h5>
+                        <h6 class="sm-title">Proyectos</h6>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="item">
+                        <span class="icon ion-university"></span>
+                        <!-- Java, PHP, CCNA, Etical Hacking, Cableado Estructurado -->
+                        <h5 class="counter">5</h5>
+                        <h6 class="sm-title">Certificaciones</h6>
+                    </div>
+                </div>
+                <!-- <div class="col-md-3 col-sm-6">
+                    <div class="item">
+                        <span class="icon ion-trophy"></span>
+                        <h5 class="counter">3</h5>
+                        <h6 class="sm-title">Premios</h6>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!--====== End Numbers ======-->
+
+    <!--====== Services ======-->
+    <section id="services" class="services section-padding" data-scroll-index="3">
+        <div class="container">
+
+            <div class="section-head">
+                <h3>Mis Servicios</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="item text-center">
+                        <span class="icon ion-speakerphone"></span>
+                        <h6>Asesoría Informática</h6>
+                        <p>Al tener conocimiento en todas las aristas de tecnología puedo asesorar sobre la materia para exponer la situación real</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item text-center bord">
+                        <span class="icon ion-cube"></span>
+                        <h6>Desarrollo de Apps</h6>
+                        <p>Con una trayectoria de 12 años en la mayoría de los stacks, puedo abordar cualquier desafío en desarrollo de apliaciones</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item text-center">
+                        <span class="icon ion-android-color-palette"></span>
+                        <h6>Diseño Gráfico & Web</h6>
+                        <p>Quizás lo que mayor aporte le dió a mis trabajos, la impronta gráfica con una cuota creativa me ayudó a despegar</p>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+                <div class="border"></div>
+
+                <div class="col-md-4">
+                    <div class="item text-center">
+                        <span class="icon ion-ios-settings-strong"></span>
+                        <h6>Cableado Estructurado</h6>
+                        <p>La tarea menos divertida pero no menos importante, participé de procesos de certifiaciones lo cual me dió el expertis necesario para acompañar estas necesidades</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item text-center bord">
+                        <span class="icon ion-monitor"></span>
+                        <h6>Arquitectura e Infraestructura</h6>
+                        <p>Actualmente administro y monitoreo varios centros de datos, es muy importante tener una visión gerencial en tiempo real del estado de situación</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="item text-center">
+                        <span class="icon ion-ios-people"></span>
+                        <h6>Friend Friendly</h6>
+                        <p>Lo que más me ayudó a crecer fue rodearme con gente brillante... tengo una red de amigos profesionales a quienes admiro y que puedo contactarlos</p>
+                    </div>
+                </div>
+                
+                <div class="clear-fix"></div>
+            </div>
+        </div>
+    </section>
+    <!--====== End Services ======-->
+
+    <!--====== Clients ======-->
+    <section id="clients" class="clients section-padding" data-scroll-index="4">
+        <div class="container">
+            <div class="row">
+
+                <!-- clients carousel -->
+                <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
+                    <div class="client-say text-center">
+
+                        <span class="icon ion-chatbubbles"></span>
+
+                        <div class="owl-carousel owl-theme owl-loaded">
+
+                            <div class="owl-stage-outer">
+
+
+                                    <div class="owl-item active" ">
+                                        <div class="client-item">
+                                            <h5>Albert Einstein</h5>
+                                            <p><i class="fa fa-quote-left" aria-hidden="true"></i> Se ha vuelto espantosamente obvio que nuestra tecnología ha superado nuestra humanidad. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                                            <h6>Físico</h6>
+                                        </div>
+                                    </div>								
+                            </div>
+
+                            <div class="owl-stage-outer">
+
+                                    <div class="owl-item" ">
+                                        <div class="client-item">
+                                            <h5>Jane Goodall</h5>
+                                            <p><i class="fa fa-quote-left" aria-hidden="true"></i> La tecnología por si sola no basta. También tenemos que poner el corazón. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                                            <h6>Primatóloga</h6>
+                                        </div>
+                                    </div>
+                            </div>
+
+
+                            <!-- <div class="owl-stage-outer">
+
+                                    <div class="owl-item" ">
+                                        <div class="client-item">
+                                            <h5>Enzo Yune</h5>
+                                            <p><i class="fa fa-quote-left" aria-hidden="true"></i> Lo importante es llegar primero, siendo el primero. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                                            <h6>Aficionado</h6>
+                                        </div>
+                                    </div>
+                            </div> -->
+
+
+                            <div class="owl-stage-outer">
+
+                                    <div class="owl-item" ">
+                                        <div class="client-item">
+                                            <h5>Pablo Picasso</h5>
+                                            <p><i class="fa fa-quote-left" aria-hidden="true"></i> Los buenos artistas copian, los grandes roban. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                                            <h6>Pintor</h6>
+                                        </div>
+                                    </div>
+                            </div>								
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== End Clients ======-->
+
+    <!--====== Portfolio ======-->
+    <section id="works" class="portfolio section-padding" data-scroll-index="5">
+        <div class="container">
+
+            <div class="section-head">
+                <h3>Portfolio</h3>
+            </div>
+
+            <div class="row">
+
+                <!-- filter links -->
+                <div class="filtering text-center mb-50">
+                    <!-- <span data-filter="*" class="active">próximamente</span> -->
+
+                    <!-- THE BEHANCE PORTFOLIO WILL BE PRINTED IN HERE -->
+                    <div class="behance-container"></div>
+
+                </div>
+                
+                <div class="filtering text-center mb-50" style="display: none">
+                    <span data-filter="*" class="active">All</span>
+                    <span data-filter=".brand">Brand</span>
+                    <span data-filter=".web">Design</span>
+                    <span data-filter=".graphic">Graphic</span>
+                </div>
+
+                <!-- gallery -->
+                <div class="gallery text-center" style="position: relative; height: 780px; display: none">
+
+                    <!-- gallery item -->
+                    <div class="col-md-4 items graphic" style="position: absolute; left: 0px; top: 0px;">
+                        <div class="item-img">
+                        
+                        <img src="img/portfolio/1.jpg" alt="image">
+                        <div class="item-img-overlay">
+                            <div class="overlay-info v-middle text-center">
+                                <h6 class="sm-titl">WEB DESIGN</h6>
+                                <div class="icons">
+                                    <span class="icon">
+                                        <a href="#0">
+                                            <span class="icon-attachment"></span>
+                                        </a>
+                                    </span>
+
+                                    <span class="icon link">
+                                        <a href="img/portfolio/1.jpg">
+                                            <span class="icon-magnifying-glass"></span>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-md-4 items web" style="position: absolute; left: 390px; top: 0px;">
+                        <div class="item-img">
+                        
+                        <img src="img/portfolio/2.jpg" alt="image">
+                        <div class="item-img-overlay">
+                            <div class="overlay-info v-middle text-center">
+                                <h6 class="sm-titl">WEB DESIGN</h6>
+                                <div class="icons">
+                                    <span class="icon">
+                                        <a href="#0">
+                                            <span class="icon-attachment"></span>
+                                        </a>
+                                    </span>
+
+                                    <span class="icon link">
+                                        <a href="img/portfolio/2.jpg">
+                                            <span class="icon-magnifying-glass"></span>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-md-4 items graphic" style="position: absolute; left: 780px; top: 0px;">
+                        <div class="item-img">
+                        
+                        <img src="img/portfolio/3.jpg" alt="image">
+                        <div class="item-img-overlay">
+                            <div class="overlay-info v-middle text-center">
+                                <h6 class="sm-titl">WEB DESIGN</h6>
+                                <div class="icons">
+                                    <span class="icon">
+                                        <a href="#0">
+                                            <span class="icon-attachment"></span>
+                                        </a>
+                                    </span>
+
+                                    <span class="icon link">
+                                        <a href="img/portfolio/3.jpg">
+                                            <span class="icon-magnifying-glass"></span>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-md-4 items brand" style="position: absolute; left: 0px; top: 390px;">
+                        <div class="item-img">
+                        
+                        <img src="img/portfolio/4.jpg" alt="image">
+                        <div class="item-img-overlay">
+                            <div class="overlay-info v-middle text-center">
+                                <h6 class="sm-titl">WEB DESIGN</h6>
+                                <div class="icons">
+                                    <span class="icon">
+                                        <a href="#0">
+                                            <span class="icon-attachment"></span>
+                                        </a>
+                                    </span>
+
+                                    <span class="icon link">
+                                        <a href="img/portfolio/4.jpg">
+                                            <span class="icon-magnifying-glass"></span>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-md-4 items web graphic" style="position: absolute; left: 390px; top: 390px;">
+                        <div class="item-img">
+                        
+                        <img src="img/portfolio/5.jpg" alt="image">
+                        <div class="item-img-overlay">
+                            <div class="overlay-info v-middle text-center">
+                                <h6 class="sm-titl">WEB DESIGN</h6>
+                                <div class="icons">
+                                    <span class="icon">
+                                        <a href="#0">
+                                            <span class="icon-attachment"></span>
+                                        </a>
+                                    </span>
+
+                                    <span class="icon link">
+                                        <a href="img/portfolio/5.jpg">
+                                            <span class="icon-magnifying-glass"></span>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-md-4 items brand" style="position: absolute; left: 780px; top: 390px;">
+                        <div class="item-img">
+                        
+                        <img src="img/portfolio/6.jpg" alt="image">
+                        <div class="item-img-overlay">
+                            <div class="overlay-info v-middle text-center">
+                                <h6 class="sm-titl">WEB DESIGN</h6>
+                                <div class="icons">
+                                    <span class="icon">
+                                        <a href="#0">
+                                            <span class="icon-attachment"></span>
+                                        </a>
+                                    </span>
+
+                                    <span class="icon link">
+                                        <a href="img/portfolio/6.jpg">
+                                            <span class="icon-magnifying-glass"></span>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== End Portfolio ======-->
+
+    <!--====== Hire ======-->
+    <div class="hire section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
+                    <div class="content text-center">
+                        <h2>Hagamos Arte juntos...!</h2>
+                        <h6>Puedo ser tu coequiper</h6>
+                        <a href="#contact">
+                            <span class="botn">ContactaMe <i class="icon ion-ios-paperplane"></i></span>
+                        </a>
+                        <a href="cv/Enzo Yune CV.pdf" target="_new">
+                            <span class="botn">Descargar CV <i class="icon ion-android-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====== End Hire ======-->
+
+    <!--====== Blog ======-->
+    <section id="blog" class="blog section-padding" data-scroll-index="6">
+        <div class="container">
+
+            <div class="section-head">
+                <h3>Las Vedettes de IT</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="item text-center">
+                        <div class="img-post">
+                            <a target="_blank" href="https://bbvaopen4u.com/es/actualidad/cuatro-propuestas-interesantes-de-big-data">
+                                <img src="img/blog/1.jpg" alt="image">
+                            </a>
+                        </div>
+                        <div class="cont-post">
+                            <span class="tag">BBVA</span>
+
+                            <a target="_blank" href="https://bbvaopen4u.com/es/actualidad/cuatro-propuestas-interesantes-de-big-data">
+                                <h6>Big Data</h6>
+                            </a>
+                            <p>Soluciones, herramientas y funcionalidades basadas en el análisis de datos</p>
+                            <a target="_blank" href="https://bbvaopen4u.com/es/actualidad/cuatro-propuestas-interesantes-de-big-data">
+                                <span class="botn">Leer Más..</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="item text-center">
+                        <div class="img-post">
+                            <a target="_blank" href="https://experienciatecno.cienradios.com/el-argentino-que-sorprendio-apple-con-sus-experiencias-de-realidad-aumentada/">
+                                <img src="img/blog/2.jpg" alt="image">
+                            </a>
+                        </div>
+                        <div class="cont-post">
+                            <span class="tag">Experienciatecno</span>
+
+                            <a target="_blank" href="https://experienciatecno.cienradios.com/el-argentino-que-sorprendio-apple-con-sus-experiencias-de-realidad-aumentada/">
+                                <h6>Realidad Aumentada</h6>
+                            </a>
+                            <p>El argentino que sorprendió a Apple con sus experiencias de realidad aumentada</p>
+                            <a target="_blank" href="https://experienciatecno.cienradios.com/el-argentino-que-sorprendio-apple-con-sus-experiencias-de-realidad-aumentada/">
+                                <span class="botn">Leer Más..</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="item text-center">
+                        <div class="img-post">
+                            <a target="_blank" href="https://www.forbes.com/sites/louiscolumbus/2018/03/11/10-ways-machine-learning-is-revolutionizing-manufacturing-in-2018/#722dbc8f23ac">
+                                <img src="img/blog/3.jpg" alt="image">
+                            </a>
+                        </div>
+                        <div class="cont-post">
+                            <span class="tag">Forbes</span>
+
+                            <a target="_blank" href="https://www.forbes.com/sites/louiscolumbus/2018/03/11/10-ways-machine-learning-is-revolutionizing-manufacturing-in-2018/#722dbc8f23ac">
+                                <h6>Learning Machine</h6>
+                            </a>
+                            <p>10 formas en que el aprendizaje automático revoluciona la fabricación en 2018</p>
+                            <a target="_blank" href="https://www.forbes.com/sites/louiscolumbus/2018/03/11/10-ways-machine-learning-is-revolutionizing-manufacturing-in-2018/#722dbc8f23ac">
+                                <span class="botn">Leer Más..</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== End Blog ======-->
+
+    <!--====== Contact ======-->
+    <section id="contact" class="contact section-padding" data-scroll-index="7">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+
+                    <h4 class="head-left">ContactaMe</h4>
+
+                    <form class="form" id="contact-form" method="post" action="contact.php" novalidate="true">
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_name" type="text" name="name" placeholder="Nombre" required="required" data-error="Me gustaría saber tu nombre" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                 <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_email" type="email" name="email" placeholder="Email" required="required" data-error="A donde te escribo?">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input id="form_subject" type="text" name="subject" placeholder="Asunto">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea id="form_message" name="message" placeholder="Mensaje" rows="4" required="required" data-error="Tenés alguna consulta?"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    
+                                    <input type="submit" value="Enviar Mensaje" class="disabled">
+                                    <div class="load-circle" id="submit-loader"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-offset-1 col-md-4">
+                    <div class="info">
+                        <div class="item">
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=+5491141904848&amp;text=Hola Enzo, te contacto para coordinar una entrevista">
+                                <span class="icon ion-android-call"></span>
+                                <h6>Celular<br> <span>+54 ( 911 ) 4190 4848</span></h6>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a target="_blank" href="https://www.google.com/maps/place/Palermo+Chico,+C1425+CABA/@-34.5774569,-58.4065916,16z/data=!3m1!4b1!4m5!3m4!1s0x95bcb563f08e6333:0xb33200534aa7081b!8m2!3d-34.5796724!4d-58.4002472">
+                                <span class="icon ion-ios-location"></span>
+                            <h6>Ubicación<br> <span>CABA Palermo</span></h6>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a target="_blank" href="mailto:enzo.yune@gmail.com?subject=Entrevista&body=Hola%20Enzo%20te%20contacto%20para%20coordinar%20una%20entrevista">
+                                <span class="icon ion-ios-email"></span>
+                                <h6>Correo<br> <span>enzo.yune@gmail.com</span></h6>
+                            </a>
+                        </div>
+                        <!-- social Icon -->
+                        <div class="social-icon">
+                            <a href="https://www.facebook.com/enzoyune" target="_blank">
+                                <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                            </a>
+                            <a href="https://twitter.com/enzoyune" target="_blank">
+                                <span><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/enzoyune/" target="_blank">
+                                <span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                            </a>
+                            <a href="https://ar.pinterest.com/enzoyune/" target="_blank">
+                                <span><i class="fa fa-pinterest-p" aria-hidden="true"></i></span>
+                            </a>
+                            <a href="https://www.instagram.com/enzo.yune/" target="_blank">
+                                <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 text-center">
+                    <p class="copy">Copy Letf <span style="display:inline-block;transform: rotate(180deg);font-size: 14px">&copy;</span> Enzo Yune 2018</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="template" style="display: none">
+
+        <div template="trajectory-right">
+            <div class="col-md-6">
+                <div class="inf text-right">
+                    <span class="date">DD.YYYY - DD.YYYY</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="cont pb-50">
+                    <h6 class="sm-title">Title</h6>
+                    <p>Content.</p>
+                </div>
+            </div>
+        </div>
+
+        <div template="trajectory-left">
+            
+            <div class="col-md-6 col-md-push-6">
+                <div class="inf">
+                    <span class="date">2004 - 2006</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-pull-6">
+                <div class="cont text-right pb-50">
+                    <h6 class="sm-title">Specialization Course.</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!--====== End Contact ======-->
+   
+
+
+
+    <div class='cursor' id="cursor"></div>
+    <div class='cursor2' id="cursor2"></div>
+    <div class='cursor3' id="cursor3"></div>
+
+
+   
+    <!-- jQuery -->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+    <script src="js/mouse.js"></script>
+
+
+    <script src="js/particles.js"></script>
+
+    <!-- jQuery Easing lib (optional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+
+      <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- scrollIt -->
+    <script src="js/scrollIt.min.js"></script>
+
+    <!-- magnific-popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- stellar js -->
+    <script src="js/jquery.stellar.min.js"></script>
+
+    <!-- typed js -->
+      <script src="js/typed.js"></script>
+
+      <!-- jquery.waypoints.min js -->
+      <script src="js/jquery.waypoints.min.js"></script>
+
+      <!-- jquery.counterup.min js -->
+      <script src="js/jquery.counterup.min.js"></script>
+
+      <!-- isotope.pkgd.min js -->
+      <script src="js/isotope.pkgd.min.js"></script>
+
+      <!-- validator js -->
+      <script src="js/validator.js"></script>
+
+      <!-- custom script -->
+    <script src="js/custom.js?v=12"></script>
+
+
+    <script src="content.js?v=4"></script>
+
+    <!-- Embed Behance Javascript -->
+    <script type="text/javascript" src="js/embed.behance.js"></script>
+
+    <script src="house/js/toastr.min.js?v=2"></script>
+    <link rel="stylesheet" href="house/css/toastr.css">
+
+    <script type="text/javascript">
+        
+
+        $(window).on('load',function()
+        {
+            $('body').addClass('loaded');
+
+            chronology("tab-1-content", trajectory);
+            chronology("tab-2-content", education);
+            
+
+            // setTimeout(function(){
+            // 	$('body').addClass('loaded');
+            // }, 3000);
+            
+            $("#nav-icon-collapse").find('ul li a').on('click', function()
+            {
+                setTimeout(function(){
+                    $("#nav-icon-collapse").removeClass('in');
+                }, 500);
+
+            });
+
+        });
+
+        $(document).ready(function()
+        {
+
+            $('.behance-container').embedBehance({
+
+                // behance API Key
+                apiKey: 'Zb0XWEqAvBua4lmCbfb6derptH2tp4cc',
+
+                // Behance Username
+                userName: 'enzoyune'
+
+            });
+
+        });
+
+
+        function chronology(tab, list)
+        {
+            var i = 1; 
+
+            list.forEach( function( data )
+            {
+                
+                if(i % 2)
+                {
+                    var record = $('#template').find('[template="trajectory-right"]').clone();
+                }
+                else
+                {
+                    var record = $('#template').find('[template="trajectory-left"]').clone();
+                }
+                
+                record.find('.date').text(data.date);
+
+                let fecha = data.date;
+                fecha = fecha.split("-")[1].trim();
+
+                if(fecha == "Cursando")
+                {
+                    record.find('.date').addClass('blink_me');
+                }
+
+                record.find('.sm-title').text(data.title);
+                record.find('p').text(data.description);
+
+                $('#resume').find("#"+ tab +" .content .row").append(record);
+
+                i++;
+            });
+
+            $("#"+ tab +" .content .row .cont").last().addClass("last");
+        }
+
+
+        const queryString = window.location.search;
+
+        const urlParams = new URLSearchParams(queryString);
+
+        const particles = urlParams.get('particles')
+
+        console.log(particles);
+
+        if(particles){
+            particlesJS('particles-js',
+            {
+                "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                    "enable": true,
+                    "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                    },
+                    "polygon": {
+                    "nb_sides": 5
+                    },
+                    "image": {
+                    "src": "img/github.svg",
+                    "width": 100,
+                    "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 0.1,
+                    "sync": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                    "enable": false,
+                    "speed": 40,
+                    "size_min": 0.1,
+                    "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                    }
+                }
+                },
+                "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                    },
+                    "onclick": {
+                    "enable": true,
+                    "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                    "distance": 400,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                    },
+                    "bubble": {
+                    "distance": 400,
+                    "size": 40,
+                    "duration": 2,
+                    "opacity": 8,
+                    "speed": 3
+                    },
+                    "repulse": {
+                    "distance": 200
+                    },
+                    "push": {
+                    "particles_nb": 4
+                    },
+                    "remove": {
+                    "particles_nb": 2
+                    }
+                }
+                },
+                "retina_detect": true,
+                "config_demo": {
+                "hide_card": false,
+                "background_color": "#b61924",
+                "background_image": "",
+                "background_position": "50% 50%",
+                "background_repeat": "no-repeat",
+                "background_size": "cover"
+                }
+            });
+        }
+                    
+    </script>
+
+</body>
+</html>

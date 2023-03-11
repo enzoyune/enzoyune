@@ -1,0 +1,38 @@
+input[type='checkbox'] {
+  display: none;
+}
+input[type='checkbox']:checked ~ .toggle {
+  /*background: #333;*/
+  right: -16px;
+  transitio1n: .5s;
+  cursor: pointer;
+}
+input[type='checkbox']:checked ~ .switch {
+  background: #ed3b59;  
+  transition: .5s;
+}
+
+.switch {
+  cursor: pointer;
+  display: block;
+  width: 38px;
+  height: 23px;
+  background: #939393;
+  border-radius: 20px;
+  position: relative;
+  top: 10px;
+  transition: .5s;
+}
+
+.toggle {
+  cursor: pointer;
+  height: 19px;
+  width: 19px;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+  top: -11px;
+  right: -3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: .5s;
+}
